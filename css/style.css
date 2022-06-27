@@ -35,27 +35,30 @@ h2 {
   font-size: 4rem;
 }
 
-h2, h3 {
+h2, h3, button {
   margin-bottom: 10px;
 }
 
+h3 {
+  width: 55%;
+  text-align: center;
+}
 
-
-
-
-
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
+span {
+  color: darkgreen;
+}
 
 button {
   background-color: darkgreen;
   color:antiquewhite;
   border: black solid 2px;
-  border-radius: 10px;
   font-size: 1.3rem;
   height: 3em;
   width: 5em;
+}
+
+img {
+  width: 50%;
+  height: auto;
 }
 
